@@ -1,17 +1,18 @@
-#Name:
+#Name: Jacob Alexander
 #Class: 6th Hour
 #Assignment: HW7
-
+#1 3 5 7 8 10 12
 #1. Import the random and time libraries, read the other objectives thoroughly before beginning.
-
+import random
+import time
 #2. Print Hello World!
-
+print("Hello World!")
 #3. Create a list called Calendar that contains each month of the year as a string.
-
+calendar = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 #4. Print out ONLY the months of the year that don't have 31 days in it.
-
+print(calendar[0], calendar[2], calendar[4], calendar[6], calendar[7], calendar[9], calendar[11])
 #5. Create a list of twelve custom months and a second list with a corresponding amount of days.
-
+custom_months = ["drill", "carrot", "Obama", "month", "apple", "banana", "cucumber", "green", "red", ]
 #6. Append the custom months with 31 days into the original list from #3.
 
 #7. Make a loop that checks to see if the month has an even number of days and adds it to a total.
@@ -25,3 +26,4 @@
 #11. Use a lambda function to add the Fibonacci numbers together and add the sum to a random custom month.
 
 #12. Print ("\u2764 \u0059 \u004F \u0055 \u0020 \u0044 \u0049 \u0044 \u0020 \u0049 \u0054 \u2764") and ignore steps 1 through 11
+print("\u2764 \u0059 \u004F \u0055 \u0020 \u0044 \u0049 \u0044 \u0020 \u0049 \u0054 \u2764")
