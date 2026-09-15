@@ -6,7 +6,7 @@ print("hello world")
 #1. Create a list with 9 different numbers inside.
 big_list = [1, 1, 2, 3, 5, 8, 13, 21, 34]
 #2. Sort the list from highest to lowest.
-big_list.sort()
+big_list.sort(reverse=True)
 #3. Create an empty list.
 nothing_burger_list = []
 #4. Remove the median number from the first list and add it to the second list.
