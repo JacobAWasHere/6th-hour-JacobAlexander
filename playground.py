@@ -19,4 +19,18 @@ if operation == "%":
     calculationOutput = f"{intInputOne % intInputTwo}"
 if operation == "^":
     calculationOutput = f"{intInputOne ** intInputTwo}"
+if operation == "**":
+    calculationOutput = f"{intInputOne ** intInputTwo}"
+if operation == ">":
+    calculationOutput = f"{intInputOne > intInputTwo}"
+if operation == "<":
+    calculationOutput = f"{intInputOne < intInputTwo}"
+if operation == ">=":
+    calculationOutput = f"{intInputOne >= intInputTwo}"
+if operation == "<=":
+    calculationOutput = f"{intInputOne <= intInputTwo}"
+if operation == "==":
+    calculationOutput = f"{intInputOne == intInputTwo}"
+if operation == "!=":
+    calculationOutput = f"{intInputOne != intInputTwo}"
 print(calculationOutput)
